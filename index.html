@@ -4,26 +4,35 @@
     <meta>
     <title>create an account</title>
   </head>
-  <body style="background-color:lightblue">
+  <body style="background-color:cyan">
     <h1 style="font-family:robotoslab">Create Account</h1>
     <form class="" action="index.html" method="post">
-    <label for="fname"> First name</label>
-    <input type="text" id="fname" name="fname" value="">
-    <label for="lname"> Last name</label>
-    <input type="text" id="lname" name="lname" value="">
+      <table>
+        <tr>
+          <td><label for="fname"> First name</label></td>
+          <td><input type="text" id="fname" name="fname" value=""></td>
+          <td colspan="2"><label for="lname"> Last name</label></td>
+          <td colspan="2"><input type="text" id="lname" name="lname" value=""></td>
+        </tr>
+      </table>
     </form>
     <form class="" action="index.html" method="post">
-      <label for="email">Email</label>
-      <input type="text" id="email" name="" value="">
-      <label for="age"> are you 13+ years old:</label>
-      <input type="radio"id="age" name="age" value="">
-      <label for="age"></label>
-      <input type="radio" id="age" name="age" value="">
+      <table>
+        <tr>
+          <td><label for="email">Email</label></td>
+          <td><input type="text" id="email" name="" value=""></td>
+          <td><p>are you 13+ years old:</p></td>
+          <td colspan="2"><label for="age">yes</label></td>
+          <td colspan="2"><input type="radio"id="age" name="age" value=""></td>
+          <td colspan="2"><label for="age">no</label></td>
+          <td colspan="2"><input type="radio" id="age" name="age" value=""></td
+        </tr>
+      </table>
     </form>
     <form class="" action="index.html" method="post">
       <label for="agree">I agree with terms & conditions</label>
       <input type="checkbox" id="agree" name="agree" value="">
-      <input type="submit" name="submit" value="submit">
+      <input style="background-color:yellow" type="submit" name="submit" value="submit">
     </form>
   </body>
 </html>
